@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_poi_layers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_poi_layers"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_poi_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_poi_search"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_poi_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_add_poi"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_poi_add_check_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_add_check_point"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+
+</LinearLayout>

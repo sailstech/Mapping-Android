@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_poi_mapping"
+            android:icon="@drawable/ic_menu_poi_mapping"
+            android:title="@string/menu_poi_mapping" />
+
+        <item
+            android:id="@+id/nav_beacon_patrolling"
+            android:icon="@drawable/ic_menu_beacon_patrolling"
+            android:title="@string/menu_beacon_patrolling" />
+
+        <item
+            android:id="@+id/nav_accuracy_verification"
+            android:icon="@drawable/ic_menu_accuracy_verification"
+            android:title="@string/menu_accuracy_verification" />
+        <item
+            android:id="@+id/nav_no_mode"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_accuracy_verification"
+            android:title="@string/menu_accuracy_verification" />
+    </group>
+
+    <item android:title="@string/menu_account">
+        <menu>
+            <item
+                android:id="@+id/nav_switch_project"
+                android:icon="@drawable/ic_menu_project"
+                android:title="@string/menu_switch_project" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+    <item android:id="@+id/version"
+        android:enabled="false"
+          android:title="version" />
+
+</menu>

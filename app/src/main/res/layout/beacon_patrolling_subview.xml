@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            fancy:srcCompat="@drawable/ic_beacon"/>
+
+        <TextView
+            android:text="10/20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="60dp"
+            android:id="@+id/tv_beacons" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            fancy:srcCompat="@drawable/ic_low_bat"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="60dp"
+            android:id="@+id/tv_low_bat" />
+    </LinearLayout>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_beacon_patrolling_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        fancy:fb_text="@string/beacon_patrolling_upload"
+        fancy:fb_iconResource="@drawable/ic_poi_save"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+</LinearLayout>

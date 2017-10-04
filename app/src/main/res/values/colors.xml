@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ipsmap_colorPrimary">#05c8b8</color>
+    <color name="ipsmap_colorPrimaryDark">#CDF1EC</color>
+    <color name="ipsmap_colorAccent">#05c8b8</color>
+    <color name="ipsmap_colorBackground">#CDF1EC</color>
+    <color name="ipsmap_colorBackgroundTranslucent">#e0CDF1EC</color>
+    <color name="ipsmap_colorDivider">#D8D8D8</color>
+    <color name="ipsmap_colorPrimaryTranslucent">#e005c8b8</color>
+    <color name="ipsmap_white">#ffffff</color>
+    <color name="ipsmap_whiteTranslucent">#e0ffffff</color>
+    <color name="ipsmap_whiteTranslucent2">#b0ffffff</color>
+    <color name="ipsmap_tvBlack">#FF4A4A4A</color>
+    <color name="ipsmap_tvBlack2">#FF000000</color>
+    <color name="ipsmap_tvBlack3">#4A4A4A</color>
+    <color name="ipsmap_tvBlack4">#979797</color>
+    <color name="ipsmap_tvBlack5">#9b9b9b</color>
+    <color name="ipsmap_tvBlack6">#55727b78</color>
+    <color name="ipsmap_tvGrey">#FF9B9B9B</color>
+    <color name="ipsmap_tvGrey2">#FFC9C9C9</color>
+    <color name="ipsmap_tvGrey3">#9B9B9B</color>
+    <color name="ipsmap_tvGrey4">#909090</color>
+    <color name="ipsmap_tvGrey5">#8A8A8A</color>
+    <color name="ipsmap_tvGrey6">#f5f5f5</color>
+    <color name="ipsmap_tvGrey7">#4A4A4A </color>
+    <color name="ipsmap_tvGrey8">#606060 </color>
+    <color name="ipsmap_tvGrey9">#666666 </color>
+    <color name="ipsmap_tvGrey10">#E4E4E4 </color>
+    <color name="ipsmap_tvGrey11">#D6D3D3 </color>
+    <color name="ipsmap_tvGrey12">#FFF2F2F2 </color>
+    <color name="ipsmap_tvGrey13">#F2F2F2 </color>
+    <color name="ipsmap_tvGrey14">#FFE3E3E3 </color>
+    <color name="ipsmap_tvGrey15">#B6B6B6 </color>
+    <color name="ipsmap_tvGreen">#27AA88</color>
+    <color name="ipsmap_tvGreen2">#3AA193</color>
+    <color name="ipsmap_tvGreen3">#FF3AA193</color>
+    <color name="ipsmap_tvGreen4">#6AD6C7</color>
+
+    <color name="ipsmap_tvGreen5">#05C8B8</color>
+    <color name="ipsmap_tvGreen6">#64C1B4</color>
+    <color name="ipsmap_tvGreen7">#e008897F</color>
+    <color name="ipsmap_tvOrg1"> #F6A623 </color>
+    <color name="ipsmap_tvGreenTranslucent">#e06AD6C7</color>
+    <color name="ipsmap_borderGrey">#9B9B9B</color>
+    <color name="ipsmap_btnDark">#27AA88</color>
+
+    <color name="ipsmap_text_bg_green_stroke">#64C1B4</color>
+    <color name="ipsmap_bg_green_stroke_selector">#ffffff</color>
+    <color name="ipsmap_red_a11">#ff0000</color>
+    <color name="ipsmap_blue_a1">#1b91e0</color>
+</resources>

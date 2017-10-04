@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/acc_verify_background">
+
+        <LinearLayout
+            android:padding="6dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/acc_verify_samples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_weight="1" />
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSample"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="6dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/acc_verify_deviation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ff0"
+                android:layout_weight="1" />
+            <TextView
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDeviation"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#ff0"
+                android:layout_weight="1" />
+            <TextView
+                android:text="@string/acc_verify_meter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#ff0"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="6dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/acc_verify_accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0f0"
+                android:layout_weight="1" />
+            <TextView
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAccuracy"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#0f0"
+                android:layout_weight="1" />
+            <TextView
+                android:text="@string/acc_verify_meter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#0f0"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_check_point_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_email"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/b_clear_measurement_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        fancy:fb_iconResource="@drawable/ic_trashcan"
+        fancy:fb_borderColor="#888"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="#88ffffff"
+        fancy:fb_focusColor="#5cc1ec"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="8dp"
+        fancy:fb_textColor="#555"/>
+
+</LinearLayout>

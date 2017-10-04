@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.sailstech.mapping.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/fl_poi">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spFloor"
+            android:alpha="0.8" />
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/lockcenter"
+            android:src="@drawable/center1"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_below="@+id/spFloor"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/zoomin"
+            android:src="@drawable/zoominb"
+            android:layout_above="@+id/zoomout"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:onClick="onZoomInClick"
+            android:layout_marginRight="6dp" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/zoomout"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/zoomoutb"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:clickable="true"
+            android:layout_alignParentLeft="false"
+            android:onClick="onZoomOutClick"
+            android:layout_alignBottom="@+id/frameLayout"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp" />
+
+        <include
+            layout="@layout/poi_mapping_toolbar"
+            android:id="@+id/poi_mapping_toolbar"
+            android:visibility="gone"
+            android:layout_below="@+id/spFloor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <include
+            layout="@layout/beacon_patrolling_toolbar"
+            android:id="@+id/beacon_patrolling_toolbar"
+            android:visibility="gone"
+            android:layout_below="@+id/spFloor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/acc_verify_toolbar"
+            android:id="@+id/acc_verify_toolbar"
+            android:visibility="gone"
+            android:layout_below="@+id/spFloor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/place_poi_mask"
+            android:id="@+id/place_poi_mask"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_poi_fade"
+        android:layout_toRightOf="@+id/fl_poi"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/poi_fade_vertical"/>
+
+    <FrameLayout
+        android:id="@+id/fl_poi"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+</RelativeLayout>

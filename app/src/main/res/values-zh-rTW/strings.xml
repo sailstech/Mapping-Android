@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Mapping</string>
+
+    <string name="navigation_drawer_open">打開側欄</string>
+    <string name="navigation_drawer_close">關閉側欄</string>
+
+    <string name="action_settings">設定</string>
+    <string name="dialog_ok">好</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_not_now">暫時不要</string>
+    <string name="dialog_sign_in_need">需要登入以繼續</string>
+    <string name="dialog_sign_in_need_contnet">您需要登入後才能使用此功能。確認登入？</string>
+    <string name="dialog_log_in">登入</string>
+    <string name="dialog_sign_up">註冊</string>
+    <string name="dialog_submit">送出</string>
+    <string name="dialog_facebook_login">Facebook登入</string>
+    <string name="dialog_forgot_password">忘記密碼</string>
+    <string name="dialog_log_out_content">您確定要登出?</string>
+    <string name="dialog_internet_error_title">錯誤</string>
+    <string name="dialog_internet_error_content">無法連線至伺服器或伺服器錯誤！</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">不</string>
+    <string name="dialog_progressing">處理中...</string>
+    <string name="dialog_select">選擇</string>
+    <string name="dialog_project_title">請選擇專案</string>
+    <string name="add_project_content">本帳戶尚未有任何專案，請聯繫richard@sailstech.com獲取進一步訊息。</string>
+    <string name="menu_project">專案</string>
+    <string name="action_switch_project">切換專案</string>
+    <string name="no_buildingid_or_token">未設定building id與token，請確認！</string>
+    <string name="dialog_load_map">載入地圖...</string>
+    <string name="menu_account">帳戶</string>
+    <string name="menu_switch_project">切換專案</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_accuracy_verification">精度驗證</string>
+    <string name="menu_beacon_patrolling">Beacon巡查</string>
+    <string name="menu_poi_mapping">POI對應</string>
+    <string name="dialog_confirm_logout">您確定要登出?</string>
+    <string name="dialog_load_pois">載入 POIs...</string>
+    <string name="poi_name_hint">請輸入POI名稱</string>
+    <string name="poi_link_hint">請輸入POI鏈結</string>
+    <string name="poi_qr_scan">掃描二維碼</string>
+    <string name="poi_move">移動</string>
+    <string name="poi_delete">刪除</string>
+    <string name="poi_save">儲存</string>
+    <string name="poi_close">取消</string>
+    <string name="dialog_poi_delete_title">您確定要刪除?</string>
+    <string name="dialog_poi_deleting">刪除中...</string>
+    <string name="dialog_poi_saving">儲存中...</string>
+    <string name="poi_place">放置</string>
+    <string name="poi_detail">詳細資訊</string>
+    <string name="poi_add">+ POI</string>
+    <string name="action_start_positioning">開始定位</string>
+    <string name="action_stop_positioning">結束定位</string>
+    <string name="poi_add_check">+ 檢查點</string>
+    <string name="beacon_patrolling_upload">上傳</string>
+    <string name="dialog_uploading">上傳中...</string>
+    <string name="dialog_upload_successfully">上傳Beacon狀態成功！</string>
+    <string name="upload_to_creatidea_cloud_error">連結至創鈺雲出現問題！</string>
+    <string name="poi_check_comment_hint">請輸入備註</string>
+    <string name="poi_visible_layer_title">可見圖層</string>
+    <string name="dialog_search">搜尋</string>
+    <string name="poi_search_hint">請輸入檢查點ID</string>
+    <string name="check_point_not_found">未找到檢查點！</string>
+    <string name="dialog_load_check_points">載入檢查點...</string>
+    <string name="acc_verify_samples">取樣數:</string>
+    <string name="acc_verify_accuracy">平均精度:</string>
+    <string name="acc_verify_meter">公尺</string>
+    <string name="acc_verify_deviation">標準差:</string>
+    <string name="acc_verify_sample">取樣</string>
+    <string name="version">版本</string>
+    <string name="beacon_not_found">未找到Beacon</string>
+    <string name="beacon_search_hint">請輸入末四碼MAC(ex. 1234)</string>
+    <string name="dialog_delete_result">您確定要刪除量測結果嗎？</string>
+    <string name="measurement_title_hint">請輸入本次量測結果名稱</string>
+
+
+</resources>
